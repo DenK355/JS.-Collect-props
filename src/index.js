@@ -23,8 +23,6 @@ form.addEventListener('submit', (e) => {
 
     const person = new Person(firstName, lastName, nickName, email);
 
-    console.log(person)
-
     localStorage.setItem('person', JSON.stringify(person));
 })
 
