@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+form {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+form > input {
+    font-size: 19px;
+    margin: 10px 0 0 10px;
+}
+
+form > button {
+    font-size: 19px;
+    margin: 10px 0 0 10px; 
+}
